@@ -1,0 +1,89 @@
+.Navbra-main{
+  width: 1440px;
+  height: 241px;
+  background-color: #000000;  
+  opacity: 0.7;
+}
+.main-container{
+  margin: 50px 10%;
+  background: #323334;
+  width: 1440px;
+  height: 1024px;
+  top: -613px;
+  left: 1065px;
+
+}
+.NavChild{
+  display: flex;
+  justify-content: space-around;
+  width: Fixed (1,200px);
+ height: Hug (40px);
+
+ top: 85px;
+ left: 120px;
+ justify: space-between;
+
+}
+.name{
+  margin-top: 85px;
+  font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+/* background: linear-gradient(0deg, #FF0909, #FF0909),
+linear-gradient(0deg, #FF0A0A, #FF0A0A),
+linear-gradient(0deg, #FFFFFF, #FFFFFF); */
+}
+
+#input{
+  margin-top: 85px;
+  font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.MainInner{
+  width: 1440px;
+height: 785px;
+top: 239px;
+background: #0D0D0DC2;
+background-image: url(./picture/foodyzone.jpg);
+background-repeat: no-repeat;
+background-position: center;background-size: cover;
+}
+.InnerItem{
+  width: 340px;
+height: 167px;
+}
+.image{
+
+width: 133px;
+height: 133px;
+margin-top: 7px;
+margin-left: 13px;
+border-radius: 50px;
+
+}
+.propertie{
+  width: Fixed (168px);
+height: Hug (86px);
+top: 16px;
+left: 163px;
+gap: 8px;
+
+}
+.name{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
