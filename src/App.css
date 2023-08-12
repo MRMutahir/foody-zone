@@ -1,0 +1,39 @@
+.Navbra-main{
+  width: 1440px;
+  height: 141px;
+  background-color: #000000;  
+  opacity: 0.7;
+  position: fixed;
+
+
+}
+.main-container{
+  /* margin: 50px 10%; */
+  background: #323334;
+  width: 1440px;
+  /* height: 1024px; */
+  top: -613px;
+  left: 1065px;
+
+}
+.NavChild{
+  display: flex;
+  justify-content: space-around;
+  width: Fixed (1,200px);
+ height: Hug (40px);
+ top: 85px;
+ left: 120px;
+ justify: space-between;}
+{
+  /* position: absolute; */
+  width: Hug (57px);
+  height: Hug (25px);
+  top: 128px;
+  margin-left: 180px;
+  padding: 4px 6px 4px 6px;
+  border-radius: 5px;
+  gap: 10px;
+  background: #FF4343;
+  color:  #FFFFFF;
+/* left: 100%; */
+}
