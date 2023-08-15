@@ -1,5 +1,5 @@
 import { abc } from "../component/arr";
-console.log(abc);
+// console.log(abc);
 
 function InnerItem() {
   return (

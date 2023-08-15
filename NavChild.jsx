@@ -14,10 +14,10 @@ let type
       type =  ele.type
       // console.log(ele.type);
   })
-console.log(type ,'filter type');
+// console.log(type ,'filter type');
 function NavChild() {
   const [count, setCount] = useState("");
-  console.log(count); 
+  // console.log(count); 
   function handleInputChange (eve) {
   let input_value = eve.target.value  
   // // input_value
@@ -25,15 +25,14 @@ function NavChild() {
   setCount(input_value)
 }
   return (
-    <Routes>
-      <Route></Route>
+
     <div className="NavChild">
       <div className="name">Foody Zone</div>
       <div className="input-div">
         <input type="text" placeholder="Search Food...." name="" id="input" onChange={handleInputChange }/>
       </div>
     </div>
-    </Routes>
+ 
   );
 }
 
