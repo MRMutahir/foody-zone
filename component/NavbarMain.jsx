@@ -1,11 +1,14 @@
 import React from "react";
 import NavChild from "../NavChild";
+import Buttons from "../picture/Buttons";
 
 function NavbarMain() {
   return (
-    <div className="Navbra-main">
-      <NavChild />
-    </div>
+    <><div className="Navbra-main">
+    <NavChild />
+ <Buttons/>
+  </div>
+  </>
   );
 }
 

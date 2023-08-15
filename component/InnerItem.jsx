@@ -5,16 +5,18 @@ function InnerItem() {
   return (
     <>
       {abc.map((item) => {
-        let { imageUrl, name, description } = item;
-
+        // console.log(item);
+        let { imageUrl, name, description ,type} = item;
+        // console.log(description);
         return (
           <div className="InnerItem">
             <div className="itemimage">
               <img className="image" src={imageUrl} alt="" />
             </div>
             <div className="propertie">
-              <h1>{name}</h1>
-              <p>{description}</p>
+              <h1 className="headingname">{name}</h1>
+              <p className="description">{description}</p>
+              <button className="btn-type">{type}</button>
             </div>
           </div>
         );
